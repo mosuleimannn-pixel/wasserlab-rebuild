@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="google-site-verification" content="vlMFxEm1y_d_pmOK3LNUmjtGw_cc74niUhbBDURxKeg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Sistemas de Purificación de Agua. Diseño y Fabricación - Wasserlab</title>
+<meta name="description" content="Sistemas de Purificación de Agua Wasserlab. Agua Ultrapura Tipo I, Agua Pura Tipo II y Agua Osmotizada Tipo III para hospitales, laboratorios e industria." />
+<meta property="og:title" content="Sistemas de Purificación de Agua. Diseño y Fabricación - Wasserlab" />
+<meta property="og:description" content="Sistemas de Purificación de Agua Wasserlab. Agua Ultrapura Tipo I, Agua Pura Tipo II y Agua Osmotizada Tipo III para hospitales, laboratorios e industria." />
+<meta property="og:url" content="https://www.wasserlab.com/"/>
+<meta property="og:locale" content="es_ES" />
+<link rel="canonical" href="https://www.wasserlab.com/" />
+<meta name="owner" content="Wasserlab"/>
+<meta name="author" content="Wasserlab"/>
+<meta name="robots" content="index,follow"/><meta name="Revisit" content="30 days"/><meta name="distribution" content="global"/><meta name="resource-type" content="document"/><meta name="coverage" content="worldwide"/><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/style/style.min.css" />
+            <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css' />
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
+            <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css' />
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://www.wasserlab.com/css/bootstrap.min.css" type="text/css" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/font-awesome-4.0.3/css/font-awesome.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/css/owl.carousel.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/css/animate.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/css/revolution.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/css/jquery.mCustomScrollbar.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/gestor/script/fancybox/fancybox.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/css/responsive.min.css" /><link rel="stylesheet" type="text/css" href="https://www.wasserlab.com/css/blue.min.css" />            <link href="https://www.wasserlab.com/images/WASSERLAB_5.svg" rel="shortcut icon"/>
+
+            <!-- SCROLL ============================================================================== -->
+            <script type="text/javascript">
+                jQuery(function () {
+                    jQuery('a').click(function (e) {
+                        var destino = jQuery.attr(this, 'href');
+                        // Si href es sólo #, no lo tratamos puesto que da error al no encontrar ningún id=""
+                        if (destino != "#") {
+                            jQuery('html, body').stop().animate({scrollTop: jQuery(destino).offset().top}, 700);
+                        }
+                    });
+                });
+            </script>
+                        
+    </head>
+            <body >
+            <style>
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+    }
+
+    .popup {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        z-index: 10001;
+    }
+
+    .close-button {
+        background-color: #444;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .close-button:hover {
+        background-color: #666;
+    }
+
+    .cookie-notice {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 99999999999;
+    }
+
+    .cookie-notice-content {
+        position: fixed;
+        bottom: 50%;
+        left: calc(50% - 200px);
+        width: 440px;
+        background-color: #f8f9fa;
+        padding: 20px;
+        box-shadow: 0px -2px 5px rgba(0,0,0,0.2);
+        z-index: 9999;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .cookie-notice-content div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cookie-notice p {
+        margin: 0;
+    }
+
+    .cookie-notice button {
+        padding: 5px 10px;
+    }
+</style>
+
+<script>
+
+    function setCookieConsent() {
+        document.cookie = "cookieConsent=ok; path=/; max-age=31536000"; // Expira en 1 año
+        location.reload();
+    }
+
+    function deleteCookie(name) {
+        var path = ";path=";
+        var domain = ";domain="+ window.location.hostname;
+
+        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + path + "/";
+        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + path + "/" + domain + window.location.hostname;
+    }
+
+    function borrarCookiesQueempiezanPor(startString) {
+        var cookies = document.cookie.split(";");
+
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = cookies[i];
+            var eqPos = cookie.indexOf("=");
+            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie.trim();
+            name = name.trimStart();
+
+            var domain = window.location.hostname.replace('www', '');
+            var domainAttribute = "domain=" + domain + '; ';
+
+            if (name.startsWith(startString)) {
+                document.cookie = name + "=; path=/; " + domainAttribute + "expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            } else {
+                console.log(name);
+                console.log(domain);
+                console.log(domainAttribute);
+            }
+        }
+    }
+
+    $(function(){
+        var checkboxAnalytical = document.querySelector('input[name="analyticalCookies"]');
+        var botonAceptarTodas = document.getElementById('accept-all');
+        var botonRechazarTodas = document.getElementById('reject-all');
+        var configureButton = document.getElementById('configure');
+        var botonConfigurarFooter = document.getElementById('configure-cookies-footer');
+        var cookieNotice = document.querySelector('.cookie-notice');
+        var popupOverlay = document.querySelector('.popup-overlay');
+        var closeButton = document.querySelector('.close-button');
+        var cookieValue = document.cookie
+            .split('; ')
+            .find(row => row.startsWith('analyticalCookies'))
+            ?.split('=')[1];
+
+        function updateCookie() {
+            if (checkboxAnalytical.checked) {
+                document.cookie = "analyticalCookies=enabled; path=/; max-age=31536000"; // Expira en 1 año
+            } else {
+                document.cookie = "analyticalCookies=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                borrarCookiesQueempiezanPor('_g');
+            }
+        }
+
+        if (checkboxAnalytical) {
+            checkboxAnalytical.addEventListener('change', function() {
+                updateCookie();
+            });
+        }
+
+        checkboxAnalytical.checked = (cookieValue === 'enabled');
+
+        if(cookieValue !== 'enabled') {
+            document.cookie = "_ga_ZLFDT9NR15=; path=/; domain=.wasserlab.com; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        }
+
+        function closePopup() {
+            popupOverlay.style.display = 'none';
+        }
+
+        if (closeButton) {
+            closeButton.addEventListener('click', function() {
+                closePopup();
+            });
+        }
+
+        botonAceptarTodas.addEventListener('click', function() {
+            cookieNotice.style.display = 'none';
+            var checkboxes = document.querySelectorAll('.formulario-cookies input[type="checkbox"]:not(:disabled)');
+            
+            checkboxes.forEach(function(checkbox) {
+                checkbox.checked = true;
+                var event = new Event('change', {
+                    'bubbles': true,
+                    'cancelable': true
+                });
+                checkbox.dispatchEvent(event);
+            });
+
+            setCookieConsent();
+        });
+
+        botonRechazarTodas.addEventListener('click', function() {
+            cookieNotice.style.display = 'none';
+            var checkboxes = document.querySelectorAll('.formulario-cookies input[type="checkbox"]:not(:disabled)');
+
+            checkboxes.forEach(function(checkbox) {
+                checkbox.checked = false;
+                var event = new Event('change', {
+                    'bubbles': true,
+                    'cancelable': true
+                });
+                checkbox.dispatchEvent(event);
+            });
+
+            setCookieConsent();
+        });
+
+        configureButton.addEventListener('click', function() {
+            popupOverlay.style.display = 'flex';
+            cookieNotice.style.display = 'none';
+        });
+
+        botonConfigurarFooter.addEventListener('click', function() {
+            popupOverlay.style.display = 'flex';
+            cookieNotice.style.display = 'none';
+        });
+
+        closeButton.addEventListener('click', function() {
+            popupOverlay.style.display = 'none';
+            cookieNotice.style.display = 'flex';
+            setCookieConsent();
+        });
+    });
+</script>
+
+<div class="popup-overlay" style="display: none;">
+    <div class="popup">
+        <p>Configuración de Cookies</p>
+        <p>Selecciona las cookies que quieres activar:</p>
+
+        <form class="formulario-cookies">
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="necessaryCookies" checked disabled> Cookies Necesarias
+                </label>
+                <p>Son las cookies imprescindibles para que la web funcione correctamente.</p>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="analyticalCookies"> Cookies Analíticas
+                </label>
+                <p>Son las cookies que recopilan ciertos datos estadísticos que nos ayudan a mejorar la web.</p>
+            </div>
+        </form>
+
+        <button class="close-button">Cerrar</button>
+    </div>
+</div>
+
+<div class="cookie-notice">
+    <div class="cookie-notice-content">
+        <p style="font-size: 24px;font-weight: bold;">COOKIES</p>
+        <p>Este sitio web utiliza <a href="https://www.wasserlab.com/es/politica-de-cookies">cookies</a> propias y de terceros para el correcto funcionamiento y visualización del sitio web por parte del usuario, así como para la recogida de estadísticas</p>
+        <p>&nbsp;</p>
+        <p>Puede aceptar todas las cookies pulsando el botón "Aceptar todo", rechazar su uso pulsando el botón"Rechazar todo" y configurarlas pulsando en el botón "Configurar".</p>
+        <div>
+            <button id="accept-all">Aceptar todo</button>
+            <button id="reject-all">Rechazar todo</button>
+            <button id="configure">Configurar</button>
+        </div>
+    </div>
+</div>
+
+            <!-- **************** INI CABECERA******************-->
+            <header	class="business1 style2">
+            
+<div class="business1-top">
+    <div class="container">
+        <div class="business1-top-bar">
+            <form id="buscar" method="post" action="index.php?estatico=buscar"><input type="text" id="criterio_busqueda" name="criterio_busqueda" size="15" value="" placeholder="REALIZAR BÚSQUEDA"/><a href="#" class="buscar" title=""><button style="border:none; background:#FFF; color:#428BCA" class=" fa fa-search" type="submit" id="boton_criterio_busqueda"></button></a></form>
+<!--<form>
+    <input type="text" placeholder="REALIZAR BÚSQUEDA" />
+    <a href="#" title="">
+        <i class="fa fa-search"></i>
+    </a>
+</form>-->            
+<span class="top-pais">
+    <i class="fa fa-globe"></i> Selecciona Idioma 
+    <select id="idiomas" name="idiomas" onchange="cambiar_idioma()">
+
+        <option selected="selected" id="" value="1">ES</option><option id="13" value="https://www.wasserlab.com/ingles">EN</option>    </select>
+</span>
+
+
+<!--<span class="top-pais">
+    <i class="fa fa-globe"></i> Selecciona País 
+    <select>
+        <option>España</option>
+    </select>
+</span>-->
+
+<script>
+    $(function(){
+      // bind change event to select
+      $('#idiomas').bind('change', function () {
+          var url = $(this).val(); // get selected value
+          if (url) { // require a URL
+              window.location = url; // redirect
+          }
+          return false;
+      });
+    });
+</script>            <span class="top-contact"><i class="fa fa-mobile"></i> Tel&eacute;fono (+34) 948 186 141</span> <span class="top-mail"><i class="fa fa-envelope"></i> info@wasserlab.com</span><a href="https://www.linkedin.com/company/wasserlab/" class="fa fa-linkedin" target="_blank"></a>        </div>
+    </div>
+</div>
+
+<div id="menu-sec" class="for-sticky">
+    <div class="container">
+        <div class="logo">
+            <a href="https://www.wasserlab.com/es/home"><img src="https://www.wasserlab.com/images/WASSERLAB_2.svg" alt="Wasserlab - Sistemas de Purificación de agua"/></a>
+        </div>
+        <span class="open-menu"><i class="fa fa-align-justify"></i></span>
+        <div class="business1-menu">
+    <ul>
+        <li><a href="https://www.wasserlab.com/es/empresa" >EMPRESA</a></li><li><a href="https://www.wasserlab.com/es/agua-pura" >EL AGUA PURA</a><ul><li><a href='https://www.wasserlab.com/es/agua-pura/estandares-para-la-calidad-del-agua' >Estándares para la calidad del Agua</a></li><li><a href='https://www.wasserlab.com/es/agua-pura/el-espectro-de-la-filtracion-2' >El espectro de la filtración</a></li><li><a href='https://www.wasserlab.com/es/agua-pura/generalidades-sobre-el-agua-purificada-2' >Agua Purificada</a></li><li><a href='https://www.wasserlab.com/es/agua-pura/sistemas-de-filtracion-2' >Sistemas de filtración</a></li><li><a href='https://www.wasserlab.com/es/agua-pura/microbiologia-sistemas-ultravioleta-2' >Sistemas Ultravioleta</a></li></ul></li><li><a href="https://www.wasserlab.com/es/aplicaciones" >SECTORES</a><ul><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2' >Laboratorios</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/analisis-clinicos-2' >Análisis Clínicos</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/lazos-de-distribucion-2' >Lazos de distribución</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/industria-cosmetica-2' >Industria Cosmética</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/camara-de-ensayo-2' >Cámaras de ensayo</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/electroerosion-mecanizado-2' >Electroerosión - Mecanizado</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/inseminacion-porcina-2' >Inseminación animal artificial</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/otras-industrias-2' >Otras Industrias</a></li></ul></li><li><a href="https://www.wasserlab.com/es/equipos" >EQUIPOS</a><ul class="doble-col"><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/micromatic' >Micromatic</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/ecomatic' >Ecomatic</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/ultramatic' >Ultramatic GR</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/autwomatic-plus' >Autwomatic Plus</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/autwomatic-plus-edi' >Autwomatic Plus - EDI</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/autwomatic-1-2' >Autwomatic Plus 1+2</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/autwomatic-plus-12-edi' >Autwomatic Plus 1+2 EDI</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/autwomatic-ro' >Autwomatic Plus RO</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/ultramatic-plus' >Ultramatic Plus</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/laboratorios-2/dispensadores-remotos' >Dispensadores remotos</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/analisis-clinicos-2/autwomatic-plus-12-5' >Autwomatic Plus Clinical - EDI</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/analisis-clinicos-2/autwomatic-clinical-60-150' >Clinical 60-150</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/analisis-clinicos-2/autwomatic-clinical-200-400' >Clinical 200-400</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/lazos-de-distribucion-2/autwomatic-process-60-150' >Process 60-150</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/lazos-de-distribucion-2/autwomatic-ro-process-60-150' >Process RO 60-150</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/lazos-de-distribucion-2/autwomatic-process-200-400' >Process 200-400</a></li><li><a href='https://www.wasserlab.com/es/aplicaciones/lazos-de-distribucion-2/autwomatic-ro-process-200-400' >Process RO 200-400</a></li></ul></li><li><a href="https://www.wasserlab.com/es/asistencia-tecnica" >ASISTENCIA TÉCNICA</a></li><li><a href="https://www.wasserlab.com/es/solicitar-presupuesto" >PRESUPUESTO</a></li><li><a href="https://www.wasserlab.com/es/noticias" >NOTICIAS</a></li><li><a href="https://www.wasserlab.com/es/contacto" >CONTACTO</a></li>    </ul>
+</div>    </div>
+</div>
+            </header>
+
+
+
+            <!-- **************** FIN CABECERA******************-->
+
+            <!-- **************** INI CONTENT******************-->
+                    
+
+<div class="slider">
+    <div class="tp-banner-container">
+        <div class="tp-banner" >
+            <ul>
+                                 
+                        <li data-transition="fade" data-slotamount="7">
+                            <img src="https://www.wasserlab.com/gestor/recursos/uploads/bg-agua.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+
+                            <div class="tp-caption lfr" data-x="750" data-y="190" data-captionhidden="off" style="z-index: 4">
+                                <span class="slide-girl"><img src="https://www.wasserlab.com/gestor/recursos/uploads/imagenes/slider/familia-wasserlab-1.png" alt="" /></span>
+                            </div>
+
+                            <div class="tp-caption sft" data-x_sm="20" data-y_sm="20" data-x="100" data-y="190" data-captionhidden="off" style="z-index: 4">
+                                <p class="slide2-text1">Equipos de producción de agua purificada para laboratorios, hospitales e industria</p>
+                            </div> 
+
+                            <div class="tp-caption sfl" data-x="100" data-y="215" data-captionhidden="off" style="z-index: 4">
+                                <p class="slide2-text2">Asesoramiento sin compromiso</p>
+                            </div> 
+
+                            <div class="tp-caption sfr" data-x="100" data-y="270" data-captionhidden="off" style="z-index: 4">
+                                <p class="slide2-text3"><a href="https://www.wasserlab.com/es/contacto">Consúltenos, somos expertos en purificación de agua</a></p>
+                            </div>
+                        </li><!-- SLIDE tipo 2  -->
+                            </ul>
+        </div>
+    </div>
+</div><!-- Slider -->                <section class="block remove-gap">
+                    <div class="container">
+                        <div class="heading4">
+<h1>Equipos de Purificaci&oacute;n de Agua para Laboratorio</h1>
+<p></p>
+<p style="text-align: justify;">Wasserlab dise&ntilde;amos y fabricamos equipos de producci&oacute;n de agua purificada en Espa&ntilde;a.<br />&nbsp;<br />Nuestros equipos est&aacute;n preparados para satisfacer las necesidades de Agua Ultrapura (Agua Tipo I), Agua Pura (Agua Tipo II) y Agua Osmotizada (Agua Tipo III) en hospitales, laboratorios e industria. <br /><br />Aunque contamos con productos est&aacute;ndar fabricados por nosotros, tambi&eacute;n dise&ntilde;amos instalaciones a medida de lo que necesitan nuestros clientes.</p>
+</div>
+                        <section class="block ">
+                        <div class="container ">
+                            <!-- **************** INI CONTENIDO CENTRAL******************-->
+
+                            <!-- **************** INI CONTENIDO ESTATICO******************-->
+                            <div class="heading1">
+<h2><i>Nuestros equipos de </i> PRODUCCI&Oacute;N DE AGUA PURIFICADA</h2>
+</div>
+<div class="our-blog-sec2">
+<div class="our-blog2"><div class="equipos"><div class="col-lg-3">
+                    <a class="boton boton-categoria-bloque" id="btn-bloque-SGB" href="https://www.wasserlab.com/es/equipos#SGB">
+                        <h3>Sobremesa Gama Básica</h3>
+                    </a>
+                </div><div class="col-lg-3">
+                    <a class="boton boton-categoria-bloque" id="btn-bloque-SGP" href="https://www.wasserlab.com/es/equipos#SGP">
+                        <h3>Sobremesa Gama Plus</h3>
+                    </a>
+                </div><div class="col-lg-3">
+                    <a class="boton boton-categoria-bloque" id="btn-bloque-AAC" href="https://www.wasserlab.com/es/equipos#AAC">
+                        <h3>Alimentación Analizadores Clínicos</h3>
+                    </a>
+                </div><div class="col-lg-3">
+                    <a class="boton boton-categoria-bloque" id="btn-bloque-AAP" href="https://www.wasserlab.com/es/equipos#AAP">
+                        <h3>Gama Alta Producción</h3>
+                    </a>
+                </div></div></div>
+</div>
+<div style="margin-top: 30px;"><a href="https://wasserlab.com/gestor/recursos/uploads/equipos/GENERAL%20BROCHURE%20HD%202026.pdf" id="twitter-btn" title="">GAMA GENERAL</a></div>                            <!-- **************** FIN CONTENIDO DE GESTOR******************-->
+
+                            <!-- **************** FIN CONTENIDO CENTRAL******************-->
+                        </div>
+                    </section>
+                                                    <div class="row">
+                            <div class="job-form-sec">
+                                                                                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+    <section class="block parallax">
+<div class="white">
+<div class="fixed-img sec-bg2"></div>
+<div class="container">
+<ul class="twitter-bar-slide">
+<li>
+<h3>Solicite presupuesto sin compromiso si sabe ya cu&aacute;l es el equipo de producci&oacute;n de agua purificada que se adapta mejor a sus necesidades. Si lo que quiere es un presupuesto personalizado, env&iacute;enos un email con la informaci&oacute;n o ll&aacute;menos para que le mandemos una oferta a medida.</h3>
+<a style="font-weight: 400;">Atenci&oacute;n telef&oacute;nica (+34) 948 186 141 &nbsp; | &nbsp; M&aacute;ndenos un email info@wasserlab.com</a></li>
+</ul>
+<a href="solicitar-presupuesto" id="twitter-btn" title="">SOLICITAR PRESUPUESTO</a></div>
+</div>
+</section>
+<!--  Twitter Parallax Sec -->            <!-- **************** FIN CONTENT******************-->
+            <!-- **************** INI PIE ******************-->
+            <footer class="block">
+    <div class="container">
+<div class="row">
+<div class="col-md-2 col-sm-4 col-xs-12">
+<div class="f-recent-office">
+<h3>EL AGUA <i>PURA</i></h3>
+<ul>
+<li><a href="https://www.wasserlab.com/agua-pura/estandares-para-la-calidad-del-agua" title="">Est&aacute;ndares para la calidad del Agua</a></li>
+<li><a href="https://www.wasserlab.com/agua-pura/el-espectro-de-la-filtracion-2" title="">El espectro de la filtraci&oacute;n</a></li>
+<li><a href="https://www.wasserlab.com/agua-pura/generalidades-sobre-el-agua-purificada-2" title="">Agua Purificada</a></li>
+<li><a href="https://www.wasserlab.com/agua-pura/sistemas-de-filtracion-2" title="">Sistemas de filtraci&oacute;n</a><a href="#" title=""><br /></a></li>
+<li><a href="https://www.wasserlab.com/agua-pura/microbiologia-sistemas-ultravioleta-2" title="">Sistemas Ultravioleta&nbsp;</a></li>
+<li><a href="https://www.wasserlab.com/agua-pura/microbiologia-sistemas-ultravioleta-2" title=""></a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-2 col-sm-4 col-xs-12">
+<div class="f-recent-office">
+<h3>SECTORES</h3>
+<ul><li><a href="https://www.wasserlab.com/es/aplicaciones/laboratorios-2">Laboratorios</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/analisis-clinicos-2">Análisis Clínicos</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/lazos-de-distribucion-2">Lazos de distribución</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/industria-cosmetica-2">Industria Cosmética</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/camara-de-ensayo-2">Cámaras de ensayo</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/electroerosion-mecanizado-2">Electroerosión - Mecanizado</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/inseminacion-porcina-2">Inseminación animal artificial</a></li><li><a href="https://www.wasserlab.com/es/aplicaciones/otras-industrias-2">Otras Industrias</a></li></ul></div>
+</div>
+<!-- .col-md-2 col-sm-4 col-xs-12 -->
+<div class="col-md-2 col-sme">
+<div class="f-recent-office">
+<h3>EQUIPOS</h3>
+<ul><li><a href="https://www.wasserlab.com/es/equipos#SGB">Sobremesa Gama Básica</a></li><li><a href="https://www.wasserlab.com/es/equipos#SGP">Sobremesa Gama Plus</a></li><li><a href="https://www.wasserlab.com/es/equipos#AAC">Alimentación Analizadores Clínicos</a></li><li><a href="https://www.wasserlab.com/es/equipos#AAP">Gama Alta Producción</a></li></ul></div>
+</div>
+<!-- .col-md-2 col-sm-4 col-xs-12 -->
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="f-find-office">
+<h3>ASISTENCIA <i>T&Eacute;CNICA</i></h3>
+<span><img src="https://www.wasserlab.com/gestor/recursos/uploads/imagenes/home/sat.jpg" /></span>
+<ul>
+<li><i class="fa fa-phone"></i>
+<p>+(34) 948 186 141</p>
+</li>
+<li><i class="fa fa-envelope"></i>
+<p><a href="mailto:info@wasserlab.com">info@wasserlab.com</a></p>
+</li>
+</ul>
+</div>
+</div>
+<!-- .col-md-3 col-sm-6 col-xs-12 -->
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="f-find-office">
+<h3>SOLICITAR <i>PRESUPUESTO</i></h3>
+<p>Solicite un <strong>presupuesto</strong> online <strong>sin compromiso</strong></p>
+<form class="presupuesto" action="solicitar-presupuesto"><input style="margin: 20px 0 10px;" class="submit" value="SOLICITAR" type="submit" /></form></div>
+</div>
+</div>
+<hr />
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<p><img src="https://www.wasserlab.com/gestor/recursos/uploads/image001.jpg" alt="" width="168" height="56" /></p>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12"><img src="https://www.wasserlab.com/gestor/recursos/uploads/image002.jpg" alt="" width="227" height="58" /></div>
+<div class="col-md-3 col-sm-6 col-xs-12"><span style="color: #ffffff; font-size: 8pt;">La empresa NAVARRA TRATAMIENTO DEL AGUA, S.L. ha sido beneficiaria de ayudas a la Contrataci&oacute;n por el Servicio Navarro de Empleo &ndash; Nafar Lansare del Gobierno de Navarra financiado por el Programa Operativo de Empleo Juvenil cofinanciado por la Iniciativa de Empleo Juvenil y el Fondo Social Europeo para el periodo 2014-2020.</span></div>
+<div class="col-md-3 col-sm-6 col-xs-12 text-right"><img src="https://www.wasserlab.com/gestor/recursos/uploads/certificado.png" alt="" width="150" /></div>
+</div>
+<!-- .col-md-3 col-sm-6 col-xs-12 --> <!-- .row --> <!-- .container --></div>
+<div class="bottom-line">
+<div class="container">
+<div class="col-md-4"><span>&copy; 2026 &middot; Pol.Ind Comarca II, Calle E, n&ordm;3 - 31.191 Barbat&aacute;in &middot; Spain</span></div>
+<!-- md-7 -->
+<div class="col-md-8">
+<ul>
+<li><a href="aviso-legal" title="">AVISO LEGAL</a></li>
+<li><a href="politica-de-privacidad" title="">POL&Iacute;TICA DE PRIVACIDAD</a></li>
+<li><a href="politica-de-cookies" title="">POL&Iacute;TICA DE COOKIES</a></li>
+<li><a href="#" title="" id="configure-cookies-footer">CONFIGURADOR DE COOKIES</a></li>
+<li><a href="#" title="">MAPA WEB</a></li>
+</ul>
+</div>
+<!-- .md-5 --></div>
+<!-- .container --></div>            </footer>
+            <!-- **************** FIN PIE ******************-->
+
+            <a href="#top" class="jump-to-top">Back to Top</a>
+
+            <script src="https://www.wasserlab.com/js/script.min.js"></script><!-- Common -->
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/bootstrap.min.js"></script><!-- Bootstrap -->
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/modernizr.js"></script><!-- modernizr -->
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/owl.carousel.min.js"></script><!-- Owl Carousal -->
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/onscreen.js"></script><!-- On Screen -->
+
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/html5lightbox.js"></script><!-- lightbox -->
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/scrolltopcontrol.min.js"></script><!-- Scroll to Top -->
+        <script src="https://www.wasserlab.com/js/jquery.mCustomScrollbar.concat.min.js"></script><!-- Jquery Scrollbar  -->
+
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/jquery.themepunch.plugins.min.js"></script><!-- Revolution Slider -->
+        <script type="text/javascript"  src="https://www.wasserlab.com/js/jquery.themepunch.revolution.min.js"></script><!-- Revolution Slider -->
+
+        <script type="text/javascript">
+                var revapi;
+                jQuery(document).ready(function () {
+                    revapi = jQuery('.tp-banner').revolution(
+                            {
+                                delay: 10000,
+                                startwidth: 1170,
+                                startheight: 550,
+                                autoHeight: "off",
+                                navigationType: "none",
+                                hideThumbs: 10,
+                                fullWidth: "on",
+                                fullScreen: "off",
+                                fullScreenOffsetContainer: ""
+                            });
+                });
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".our-blog2").owlCarousel({
+                    autoPlay: true,
+                    stopOnHover: true,
+                    goToFirstSpeed: 2000,
+                    slideSpeed: 1500,
+                    singleItem: true,
+                    autoHeight: true,
+                    transitionStyle: "backSlide",
+                    navigation: true
+                });
+
+                $(".portfolio-sec").owlCarousel({
+                    autoPlay: true,
+                    stopOnHover: true,
+                    goToFirstSpeed: 2000,
+                    slideSpeed: 1500,
+                    singleItem: true,
+                    autoHeight: true,
+                    transitionStyle: "backSlide",
+                    navigation: false,
+                    pagination: false
+                });
+
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".our-project-sec").owlCarousel({
+                    autoPlay: true,
+                    stopOnHover: true,
+                    goToFirstSpeed: 2000,
+                    slideSpeed: 1500,
+                    singleItem: true,
+                    autoHeight: true,
+                    transitionStyle: "backSlide",
+                    navigation: false,
+                    pagination: true
+                });
+            });
+        </script>
+            <script src="https://www.wasserlab.com/js/funciones.js"></script>
+
+    
+    </body>
+<script>if(console){
+console.info("Versión: CMS3 versión 3.4.2 a.406-12");
+console.info("Rendimiento: Pag. generada en 68.78ms.");
+console.info("Rendimiento: Syslan.mac.i: 786 consultas en 50.73ms. (74%) 345 enviadas al SGBD (44%)");
+console.info("Rendimiento: Syslan.mac.i.cache: 441 aciertos y 177 fallos. Tamaño: 59.59KB.  Ratio: 46.62");
+}</script></html>
