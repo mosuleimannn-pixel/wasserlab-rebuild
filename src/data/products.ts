@@ -69,7 +69,7 @@ export const categories: Category[] = [
           'Compacto y silencioso',
           'Fácil mantenimiento'
         ],
-        image: '/images/products/original/micromatic.jpg'
+        image: '/wasserlab-rebuild/images/products/original/micromatic.jpg'
       },
       {
         id: 'ecomatic',
@@ -86,7 +86,7 @@ export const categories: Category[] = [
           'Ósmosis inversa integrada',
           'Display digital'
         ],
-        image: '/images/products/original/ecomatic.jpg'
+        image: '/wasserlab-rebuild/images/products/original/ecomatic.jpg'
       },
       {
         id: 'ultramatic-gr',
@@ -103,7 +103,7 @@ export const categories: Category[] = [
           'Resistividad 18.2 MΩ·cm',
           'Filtro final 0.2 µm'
         ],
-        image: '/images/products/original/ultramatic-gr.jpg'
+        image: '/wasserlab-rebuild/images/products/original/ultramatic-gr.jpg'
       }
     ]
   },
@@ -128,7 +128,7 @@ export const categories: Category[] = [
           'Alarmas integradas',
           'Conexión remota opcional'
         ],
-        image: '/images/products/original/autwomatic-plus.jpg'
+        image: '/wasserlab-rebuild/images/products/original/autwomatic-plus.jpg'
       },
       {
         id: 'autwomatic-plus-edi',
@@ -145,7 +145,7 @@ export const categories: Category[] = [
           'Agua Tipo I disponible',
           'Bajo coste operativo'
         ],
-        image: '/images/products/original/autwomatic-plus-edi.jpg'
+        image: '/wasserlab-rebuild/images/products/original/autwomatic-plus-edi.jpg'
       },
       {
         id: 'ultramatic-plus',
@@ -162,7 +162,7 @@ export const categories: Category[] = [
           'Bacterias < 1 CFU/ml',
           'Partículas < 1/ml'
         ],
-        image: '/images/products/original/ultramatic-plus.jpg'
+        image: '/wasserlab-rebuild/images/products/original/ultramatic-plus.jpg'
       }
     ]
   },
@@ -187,7 +187,7 @@ export const categories: Category[] = [
           'Recirculación automática',
           'Compatible con todos los analizadores'
         ],
-        image: '/images/products/original/clinical-60.jpg'
+        image: '/wasserlab-rebuild/images/products/original/clinical-60.jpg'
       },
       {
         id: 'clinical-200-400',
@@ -204,7 +204,7 @@ export const categories: Category[] = [
           'Múltiples puntos de uso',
           'Monitorización remota'
         ],
-        image: '/images/products/original/clinical-60.jpg'
+        image: '/wasserlab-rebuild/images/products/original/clinical-60.jpg'
       }
     ]
   },
@@ -229,7 +229,7 @@ export const categories: Category[] = [
           'Bajo mantenimiento',
           'Integración con sistemas existentes'
         ],
-        image: '/images/products/original/process-60.jpg'
+        image: '/wasserlab-rebuild/images/products/original/process-60.jpg'
       },
       {
         id: 'process-200-400',
@@ -246,7 +246,7 @@ export const categories: Category[] = [
           'Redundancia integrada',
           'Telemetría avanzada'
         ],
-        image: '/images/products/original/process-200.jpg'
+        image: '/wasserlab-rebuild/images/products/original/process-200.jpg'
       }
     ]
   }
