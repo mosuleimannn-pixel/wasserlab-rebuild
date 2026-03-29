@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useEffect, useState, useRef } from 'react'
-import { ChevronDown, Droplets, Beaker } from 'lucide-react'
+import { Droplets, Beaker } from 'lucide-react'
 
 // Typewriter effect hook with proper cleanup
 function useTypewriter(text: string, speed: number = 50, delay: number = 0) {
@@ -341,30 +341,29 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2.2, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <motion.a
-          href="#productos"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="flex flex-col items-center gap-2 text-slate-500 hover:text-cyan-400 transition-colors cursor-pointer"
-        >
-          <span className="text-xs uppercase tracking-widest">Descubrir</span>
-          <div className="w-6 h-10 rounded-full border-2 border-current p-1">
-            <motion.div
-              animate={{ y: [0, 16, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-              className="w-1.5 h-1.5 bg-current rounded-full mx-auto"
-            />
-          </div>
-          <ChevronDown className="w-5 h-5" />
-        </motion.a>
-      </motion.div>
+      {/* Animated water drops */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 overflow-hidden pointer-events-none">
+        {[...Array(5)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute bottom-0"
+            style={{ left: `${15 + i * 18}%` }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ 
+              y: [0, 40, 0],
+              opacity: [0.3, 0.6, 0.3],
+            }}
+            transition={{
+              duration: 3 + i * 0.5,
+              repeat: Infinity,
+              delay: i * 0.7,
+              ease: "easeInOut"
+            }}
+          >
+            <Droplets className="w-4 h-4 text-cyan-400/40" />
+          </motion.div>
+        ))}
+      </div>
     </motion.section>
   )
 }
