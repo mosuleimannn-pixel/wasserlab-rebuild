@@ -120,7 +120,7 @@ export const ProductCard = forwardRef<HTMLDivElement, ProductCardProps>(
               src={image}
               alt={name}
               fill
-              className="object-cover object-center"
+              className="object-contain object-center p-4"
               sizes={featured ? '(max-width: 768px) 100vw, 50vw' : '(max-width: 768px) 100vw, 33vw'}
             />
           </motion.div>
