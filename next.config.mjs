@@ -8,6 +8,6 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.wasserlab.com' },
     ],
   },
-  basePath: '/wasserlab-preview',
+  basePath: '/wasserlab-rebuild',
 }
 export default nextConfig
