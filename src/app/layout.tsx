@@ -61,7 +61,7 @@ export default function RootLayout({
     <html lang="es" className={`${inter.variable} ${outfit.variable}`}>
       <body className="bg-[#0a0a0f] text-white antialiased font-inter selection:bg-cyan-500/30 selection:text-white">
         {/* Ambient background gradient */}
-        <div className="fixed inset-0 -z-10">
+        <div className="fixed inset-0 -z-10 overflow-hidden">
           <div className="absolute inset-0 bg-[#0a0a0f]" />
           <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-[150px]" />
           <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-[120px]" />
