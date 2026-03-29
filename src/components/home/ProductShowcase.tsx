@@ -7,6 +7,7 @@ import { Droplets, FlaskConical, Factory, Microscope } from 'lucide-react'
 const products = [
   {
     id: 1,
+    slug: "sobremesa-basica",
     title: "Sobremesa Gama Básica",
     description: "Sistemas compactos de purificación para laboratorios pequeños y medianos.",
     icon: Droplets,
@@ -18,6 +19,7 @@ const products = [
   },
   {
     id: 2,
+    slug: "sobremesa-plus",
     title: "Sobremesa Gama Plus",
     description: "Equipos avanzados con mayor capacidad y funciones adicionales.",
     icon: FlaskConical,
@@ -29,6 +31,7 @@ const products = [
   },
   {
     id: 3,
+    slug: "analizadores",
     title: "Alimentación Analizadores",
     description: "Sistemas específicos para analizadores clínicos y equipos médicos.",
     icon: Microscope,
@@ -40,6 +43,7 @@ const products = [
   },
   {
     id: 4,
+    slug: "alta-produccion",
     title: "Gama Alta Producción",
     description: "Sistemas industriales de alta capacidad para grandes volúmenes.",
     icon: Factory,
@@ -144,7 +148,7 @@ export default function ProductShowcase() {
           {products.map((product, index) => (
             <motion.a
               key={product.id}
-              href={`/equipos/${product.id}`}
+              href={`/wasserlab-rebuild/equipos/${product.slug}`}
               variants={cardVariants}
               whileHover={{ scale: 1.02, y: -5 }}
               className="group relative"
@@ -228,7 +232,7 @@ export default function ProductShowcase() {
           className="text-center mt-16"
         >
           <motion.a
-            href="/equipos"
+            href="/wasserlab-rebuild/equipos"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full glass border border-white/10 hover:border-cyan-500/30 text-white hover:text-cyan-300 transition-all duration-300"
