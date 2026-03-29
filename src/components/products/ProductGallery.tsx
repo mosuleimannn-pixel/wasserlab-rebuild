@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
+// Using native img for static export compatibility
+// import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react'
 
@@ -40,13 +41,11 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
                      group cursor-zoom-in"
           onClick={() => setLightboxOpen(true)}
         >
-          <Image
+          <img
             src={galleryImages[selectedIndex]}
             alt={productName}
-            fill
-            className="object-contain p-8 transition-transform duration-500 
+            className="absolute inset-0 w-full h-full object-contain p-8 transition-transform duration-500 
                        group-hover:scale-110"
-            priority
           />
           
           {/* Hover Overlay */}
@@ -87,11 +86,10 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
                     : 'border-white/10 hover:border-white/30'}
                 `}
               >
-                <Image
+                <img
                   src={img}
                   alt={`${productName} ${index + 1}`}
-                  fill
-                  className="object-contain p-2 bg-white/5"
+                  className="absolute inset-0 w-full h-full object-contain p-2 bg-white/5"
                 />
               </motion.button>
             ))}
@@ -147,11 +145,10 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
               className="relative w-[80vw] h-[80vh] cursor-zoom-in"
               onClick={(e) => { e.stopPropagation(); setIsZoomed(!isZoomed) }}
             >
-              <Image
+              <img
                 src={galleryImages[selectedIndex]}
                 alt={productName}
-                fill
-                className="object-contain"
+                className="absolute inset-0 w-full h-full object-contain"
               />
             </motion.div>
             
