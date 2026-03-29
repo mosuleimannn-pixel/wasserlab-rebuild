@@ -99,8 +99,8 @@ export const ProductCard = forwardRef<HTMLDivElement, ProductCardProps>(
 
         {/* Image Container */}
         <div className={cn(
-          'relative overflow-hidden',
-          featured ? 'h-72 lg:h-96' : 'h-56'
+          'relative overflow-hidden bg-gradient-to-b from-white/5 to-transparent',
+          featured ? 'aspect-[4/3]' : 'aspect-[4/3]'
         )}>
           {/* Background gradient */}
           <div 
