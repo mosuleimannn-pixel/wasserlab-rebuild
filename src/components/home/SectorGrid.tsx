@@ -115,7 +115,7 @@ export default function SectorGrid() {
   const [hoveredId, setHoveredId] = useState<number | null>(null)
 
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0d0d14] to-transparent" />
       

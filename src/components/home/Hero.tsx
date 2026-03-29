@@ -235,7 +235,7 @@ export default function Hero() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="text-5xl md:text-7xl lg:text-8xl font-outfit font-bold tracking-tight mb-8 perspective-1000"
+          className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-outfit font-bold tracking-tight mb-6 sm:mb-8 perspective-1000"
         >
           {headlineWords.map((word, i) => (
             <motion.span
@@ -258,7 +258,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.5 }}
-          className="text-lg md:text-xl lg:text-2xl text-slate-400 max-w-3xl mx-auto mb-12 font-light"
+          className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-400 max-w-3xl mx-auto mb-8 sm:mb-12 font-light px-4"
         >
           {displayText}
           {!isComplete && (
@@ -317,7 +317,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.8, duration: 0.6 }}
-          className="flex flex-wrap justify-center gap-8 md:gap-16 mt-16 pt-12 border-t border-white/5"
+          className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-6 sm:gap-8 md:gap-16 mt-12 sm:mt-16 pt-8 sm:pt-12 border-t border-white/5"
         >
           {[
             { value: "25+", label: "Años de experiencia" },
@@ -332,10 +332,10 @@ export default function Hero() {
               transition={{ delay: 2 + i * 0.1 }}
               className="text-center"
             >
-              <div className="text-3xl md:text-4xl font-bold text-gradient mb-1">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gradient mb-1">
                 {stat.value}
               </div>
-              <div className="text-sm text-slate-500">{stat.label}</div>
+              <div className="text-xs sm:text-sm text-slate-500">{stat.label}</div>
             </motion.div>
           ))}
         </motion.div>

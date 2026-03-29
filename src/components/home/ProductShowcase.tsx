@@ -11,7 +11,7 @@ const products = [
     description: "Sistemas compactos de purificación para laboratorios pequeños y medianos.",
     icon: Droplets,
     waterTypes: ["Tipo II", "Tipo III"],
-    image: "/images/products/original/micromatic.png",
+    image: "/images/products/original/micromatic.jpg",
     color: "from-cyan-500/20 to-blue-500/20",
     glowColor: "cyan",
     count: 3,
@@ -85,7 +85,7 @@ export default function ProductShowcase() {
   const isInView = useInView(containerRef, { once: true, margin: "-100px" })
 
   return (
-    <section id="productos" className="relative py-32 overflow-hidden">
+    <section id="productos" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/5 to-transparent" />
       
