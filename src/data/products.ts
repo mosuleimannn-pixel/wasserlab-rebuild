@@ -69,7 +69,7 @@ export const categories: Category[] = [
           'Compacto y silencioso',
           'Fácil mantenimiento'
         ],
-        image: '/images/products/original/micromatic.png'
+        image: '/images/products/original/micromatic.jpg'
       },
       {
         id: 'ecomatic',
@@ -86,7 +86,7 @@ export const categories: Category[] = [
           'Ósmosis inversa integrada',
           'Display digital'
         ],
-        image: '/images/products/original/ecomatic.png'
+        image: '/images/products/original/ecomatic.jpg'
       },
       {
         id: 'ultramatic-gr',
@@ -103,7 +103,7 @@ export const categories: Category[] = [
           'Resistividad 18.2 MΩ·cm',
           'Filtro final 0.2 µm'
         ],
-        image: '/images/products/original/ultramatic-gr.png'
+        image: '/images/products/original/ultramatic-gr.jpg'
       }
     ]
   },
